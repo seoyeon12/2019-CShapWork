@@ -1,0 +1,14 @@
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\bin\Debug\SkideMark.exe.config
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\bin\Debug\SkideMark.exe
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\bin\Debug\SkideMark.pdb
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark.csprojAssemblyReference.cache
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\MainWindow.g.cs
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\App.g.cs
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark_MarkupCompile.cache
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark_MarkupCompile.lref
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\MainWindow.baml
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark.g.resources
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark.Properties.Resources.resources
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark.csproj.GenerateResource.cache
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark.exe
+C:\Users\Yean\Desktop\2019C#Work\2019SkidMark\SkideMark\SkideMark\obj\Debug\SkideMark.pdb
