@@ -1,0 +1,113 @@
+﻿<Window x:Class="_2019BMI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2019BMI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="신장"
+                           Margin="30 0 10 0"
+                           FontSize="16"/>
+                <TextBox x:Name="InputHeight"
+                         Width="50"/>
+                
+                <TextBlock Text="cm"
+                           Margin="5 0 0 0"/>
+
+                <TextBlock Text="체중"
+                           Margin="30 0 10 0"
+                           FontSize="16"/>
+                <TextBox x:Name="InputWeight"
+                         Width="50"/>
+                
+                <TextBlock Text="kg"
+                           Margin="5 0 0 0"/>
+
+                <Button Content="계산"
+                        Margin="30 0 10 0"
+                        Width="60"
+                        Click="Button_Click"/>
+                <Button Content="초기화"
+                        Margin="10 0"
+                        Width="70"
+                        Click="Button_Clear_Click"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="나의 신체질량지수(BMI)"
+                           Margin="30,0,0,0"
+                           FontSize="18"
+                           FontWeight="Heavy"/>
+                
+                <TextBlock x:Name="resultBMI"
+                           FontSize="18"
+                           FontWeight="Heavy"
+                           Margin="20,0,0,0"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel VerticalAlignment="Center">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+
+                <TextBlock x:Name="minerWeight"
+                           Text="저체중" Margin="60 0 0 10"
+                           FontSize="14"
+                           Foreground="Brown"
+                           Visibility="Hidden"/>
+
+                <TextBlock x:Name="okWeight"
+                           Text="정상" Margin="110 0 0 10"
+                           FontSize="14"
+                           Foreground="Brown"
+                           Visibility="Hidden"/>
+                
+                <TextBlock x:Name="overWeight"
+                           Text="과체중" Margin="120 0 0 10"
+                           FontSize="14"
+                           Foreground="Brown"
+                           Visibility="Hidden"/>
+
+                <TextBlock x:Name="majerWeight"
+                           Text="비만" Margin="90 0 0 10"
+                           FontSize="14"
+                           Foreground="Brown"
+                           Visibility="Hidden"/>
+                                
+                <TextBlock x:Name="upMajerWeight"
+                           Text="고도비만" Margin="85 0 0 10"
+                           FontSize="14"
+                           Foreground="Brown"
+                           Visibility="Hidden"/>
+
+                <TextBlock x:Name="upupMajerWeight"
+                           Text="초고도비만" Margin="50 0 0 10"
+                           FontSize="14"
+                           Foreground="Brown"
+                           Visibility="Hidden"/>
+                </StackPanel>
+                <Line HorizontalAlignment="Stretch" VerticalAlignment="Center" 
+                  Stretch="Uniform" StrokeThickness="10" X1="0" Y1="0" X2="1" Y2="0">
+                    <Line.Stroke>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                            <GradientStop Color="#fce303" Offset="0.15" />
+                            <GradientStop Color="Green" Offset="0.25" />
+                            <GradientStop Color="Orange" Offset="0.45" />
+                            <GradientStop Color="Red" Offset="1" />
+                        </LinearGradientBrush>
+                    </Line.Stroke>
+                </Line>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

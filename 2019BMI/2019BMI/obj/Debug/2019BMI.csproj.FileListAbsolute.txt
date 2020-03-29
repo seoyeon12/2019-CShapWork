@@ -1,0 +1,14 @@
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\bin\Debug\2019BMI.exe.config
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\bin\Debug\2019BMI.exe
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\bin\Debug\2019BMI.pdb
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI.csprojAssemblyReference.cache
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\MainWindow.g.cs
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\App.g.cs
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI_MarkupCompile.cache
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI_MarkupCompile.lref
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\MainWindow.baml
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI.g.resources
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\_2019BMI.Properties.Resources.resources
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI.csproj.GenerateResource.cache
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI.exe
+C:\Users\Yean\Desktop\2019C#Work\2019BMI\2019BMI\obj\Debug\2019BMI.pdb
